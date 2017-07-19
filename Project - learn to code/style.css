@@ -1,0 +1,98 @@
+/* Arquivo CSS para o projeto de HTML do Introdução a programação */
+
+/* Classe titulo, usada no topo da pagina */
+.titulo {
+  background-color: #009900; /* cor de fundo */
+  color: white; /* cor da letra */
+  border-radius: 30px; /* fazer a borda ficar curva */
+  font-weight: bold; /* letra em negrito */
+  max-width: 90%; /* controlar o tamanho da caixa */
+  text-align: center; /* centraliza o texto */
+  border-color: white;
+  border-style: double;
+}
+
+/* Classe do texto de apresentação */
+.texto-inicial{
+  font-size: 20px; /* tamanho da fonte */
+  color: white;
+  border-radius: 30px;
+  border-color: white; /* cor da borda */
+  border-style: outset;; /* fazer a borda aparecer e o estilo */
+  max-width: 90%; /* controlar o tamanho da caixa */
+  text-align: center;
+}
+
+
+/* Classe para a lista de links no início */
+.lista{
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #009900;
+  border-radius: 30px;
+  max-width: 200px;
+  color: white;
+  border-color: white;
+  border-style: double;
+}
+
+/* Classe para o titulo da caixa de links*/
+.titulo-lista {
+color: white;
+}
+
+/* Classe para o titulo de cada caixinha com texto do jogo*/
+.titulo-caixa{
+  text-align: center;
+}
+
+/* Classe para as figuras */
+.imagem {
+  max-width: 70%;
+  border-color: white;
+  border-style: double;
+  margin-bottom: 40px; /* faz dar um espaço inferior para a próxima caixa */
+  border-radius: 10px;
+}
+
+/* classe para a descrição da partida */
+.texto {
+  max-width: 30%;
+  color: white;
+  font-family: sans-serif;
+  background-color: #009900;
+  border-style: double;
+  border-color: white;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  text-align: justify;
+  padding-left: 10px; /* espaco na esquerda antes do texto */
+  padding-right: 10px; /* espaco na direita depois do texto */
+}
+
+/* configuração da class jogo, onde especifico a quebra em linha de imagem e texto*/
+.jogo {
+  display: flex; /* falo que quero usar o flex nessa classe*/
+  flex-direction: row; /* especifico a quebra por linha*/
+  display: -webkit-flex; /* para funcionar no motor webkit */
+}
+
+.about{
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Funcionamento do boxsizing automatico em todos os navegadores*/
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-box-sizing: border-box;
+}
+
+/* Aqui é a configuração da imagem de fundo do body */
+body {
+   background-image:url('images/federer.jpg'); /* link para imagem de fundo*/
+   background-repeat: no-repeat; /* aparecer apenas uma vez a imagem */
+   background-size: cover; /* cobrir toda a extensao do body*/
+ }
