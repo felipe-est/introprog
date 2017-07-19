@@ -1,4 +1,4 @@
-# Learn to code - [Udacity Course](https://br.udacity.com/course/intro-to-programming-nanodegree--nd000/)
+# Introductin to Programming - [Udacity Course](https://br.udacity.com/course/intro-to-programming-nanodegree--nd000/)
 ### Created by Felipe Fonseca
 
 ## Objetivo
